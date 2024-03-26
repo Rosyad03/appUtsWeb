@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("beground.jpg");
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.item {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid hwb(0 90% 9%);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.item p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.item .price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.item .order-button {
+    background-color: #4CAF50;
+    color: #fbf9fb;
+    padding: 5px 10
+}

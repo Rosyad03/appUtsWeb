@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Elegan</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pesan Makanan Favoritmu!</h1>
+        </header>
+        <section class="menu">
+            <h2>Pilih Menu</h2>
+            <ul>
+                <li>
+                    <div class="item">
+                        <img src="cappucino.jpg" alt="Burger">
+                        <h3>Cappucino</h3>
+                        <p>minuman segar meskipun hangat.</p>
+                        <span class="price">Rp 35.000</span>
+                        <button class="order-button" data-item="burger">Pesan</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="green tea.jpg" alt="Burger">
+                        <h3>Green tea Latte</h3>
+                        <p>Segar dari kebun teh asli.</p>
+                        <span class="price">Rp 40.000</span>
+                        <button class="order-button" data-item="burger">Pesan</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="fish and.jpeg" alt="Burger">
+                        <h3>Fish and chips</h3>
+                        <p>ikan dan keripik.</p>
+                        <span class="price">Rp 50.000</span>
+                        <button class="order-button" data-item="burger">Pesan</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="french.jpg" alt="Burger">
+                        <h3>french fries</h3>
+                        <p>Kentang gurih dengan resep tersendiri.</p>
+                        <span class="price">Rp 50.000</span>
+                        <button class="order-button" data-item="burger">Pesan</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="tuna.jpg" alt="Burger">
+                        <h3>Tuna Sandwich</h3>
+                        <p>Suatu Makanan gabungan ikan dan roti yang membuat krispi yang enak.</p>
+                        <span class="price">Rp 45.000</span>
+                        <button class="order-button" data-item="burger">Pesan</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="mineral.jpg" alt="Pizza">
+                        <h3>Mineral Water</h3>
+                        <p>air putih yang segar dari pegunungan asli cita rasa.</p>
+                        <span class="price">Rp 8.000</span>
+                        <button class="order-button" data-item="pizza">Pesan</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="order-summary">
+          <h2>Keranjang Pesanan</h2>
+          <ul id="order-list"></ul>
+          <div class="total">
+            <span>Total:</span>
+            <span id="total-price">Rp 0</span>
+          </div>
+          <button class="checkout-button">Pesan Sekarang</button>
+        </section>
+      </div>
+      <script src="tambah.js"></script>
+    </body>
+    </html>
